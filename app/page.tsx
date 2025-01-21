@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Card from "./component/card";
 
 export default function Page() {
   return (
@@ -8,14 +9,13 @@ export default function Page() {
 
 
       <Image src="/warning.jpg" width={300} height={300} alt="players" />
-      <ul>66162110237-4 Thanawat Poomikan</ul>
+      <ul className="text-6xl">66162110237-4 Thanawat Poomikan</ul>
 
-      <ul>
-        <Link href="\page1" className="text-justify ">Go to First-Pages </Link>
-
-      </ul>
-      <ul><Link href="\page2">Go to Second-Pages</Link></ul>
-      <ul><Link href="\page3">Go to Third-Pages</Link></ul>
+      <div className="w-full justify-between bottom-3 flex">
+        <Card src="/Card1.jpg" title="Player: 1"></Card>
+        <Card src="/Card2.jpg" title="Player: 2"></Card>
+        <Card src="/Card3.jpg" title="Player: 3"></Card>
+      </div>
 
     </div >
   );

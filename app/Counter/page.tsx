@@ -1,5 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
+import Card from "../component/card";
 export default function Page() {
     const [fruit, setFruit] = useState('banana');
     const changeApple = () => {
@@ -33,7 +34,6 @@ export default function Page() {
 
                 <button onClick={changeBanana} >Banana</button>
             </div>
-
         </div>
     )
 }
