@@ -9,7 +9,7 @@
 //         }//eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3Y2EwMWIwOTg3ODViM2Q2NGNiMGU2YjcxMjlhNmI1YSIsIm5iZiI6MTczODAzNzY5OS4xMDcsInN1YiI6IjY3OTg1OWMzYmE0Zjk0MWY0NDhmMjk1ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kJPn6PCwKxCC6e4fEM-_teTUwvnSXwY1PpD8r9CLjSM
 //     };
 
-import Card from "../component/card";
+// import Card from "../component/card";
 import CardNewERVerSion from "../component/cart";
 
 //     const result = fetch(url, options)
